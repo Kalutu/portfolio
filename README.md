@@ -6,8 +6,9 @@ This is a personal portfolio website for Kalutu Daniel, a web developer. The por
 - [Projects](#projects)
 - [Contact](#contact)
 - [Technologies Used](#technologies-used)
-- [Getting Started](#getting-started)
-- [License](#license)
+- [Usage](#usage)
+- [Contributions](#contributions)
+- [Credits](#credits)
 
 ## About
 The "About" section provides an introduction to Kalutu Daniel. It highlights his educational background, experience, and expertise in web development. It also mentions his approach to collaboration and communication with clients.
@@ -22,8 +23,13 @@ The "Contact" section provides various ways to get in touch with Kalutu Daniel. 
 - HTML5
 - CSS3
 
-## Getting Started
-To view the portfolio website locally, follow these steps:
+## Usage
+To view the webpage, simply open the `index.html` file in a web browser.
 
-1. Clone the repository:
+## Contributions
+Contributions to the project are welcome. Feel free to submit a pull request with any improvements or fixes.
+
+## Credits
+Readme created by Kalutu Daniel.
+
 
