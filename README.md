@@ -2,7 +2,7 @@
 This is a personal portfolio website for Kalutu Daniel, a web developer. The portfolio showcases Kalutu's skills, projects, and contact information.
 
 ## Preview 
-![Kalutu Daniel Website Preview](img/kalutu-daniel.PNG)
+![Kalutu Daniel Website Preview](img/portfolio.PNG)
 
 ## Table of Contents
 - [About](#about)
