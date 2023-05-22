@@ -28,7 +28,8 @@ The "Contact" section provides various ways to get in touch with Kalutu Daniel. 
 
 ## Usage
 To view the webpage, simply open the `index.html` file in a web browser.<br>
-OR Visit https://kalutu-daniel.vercel.app/
+OR<br>
+Visit https://kalutu-daniel.vercel.app/
 
 ## Contributions
 Contributions to the project are welcome. Feel free to submit a pull request with any improvements or fixes.
