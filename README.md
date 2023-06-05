@@ -2,7 +2,7 @@
 This is a personal portfolio website for Kalutu Daniel, a software engineer. The portfolio showcases Kalutu's skills, projects, and contact information.
 
 ## Preview 
-![Kalutu Daniel Website Preview](img/kalutu-portfolio.PNG)
+![Kalutu Daniel Website Preview](img/kalutu-portfolio.png)
 
 ## Table of Contents
 - [About](#about)
