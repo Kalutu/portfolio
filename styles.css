@@ -213,8 +213,9 @@ figure{
 
 .image {
     width: 100%;
-    height: 400px;
+    height: 350px;
     margin-bottom: 20px;
+    padding-top: 2px;
     object-fit: fill;
 }
 
@@ -232,6 +233,12 @@ figcaption a:hover {
     color: var(--hover);
 }
 
+.description {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 11px;
+    color: var(--txtcolor);
+}
 .button {
     height: 50px;
     display: flex;
