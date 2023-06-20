@@ -176,14 +176,12 @@ h4 {
 
     #projects {
         height: 3400px;
-        
     }
 
     .flex {
         height: 3200px;
         flex-direction: column;
         flex-wrap: nowrap;
-        
     }
     .project-title {
         width: 100%;
@@ -195,7 +193,6 @@ h4 {
 @media (min-width: 561px) and (max-width: 999px){
     #projects {
         height: 1800px;
-        border: 2px solid;
     }
 
     .flex {
@@ -203,7 +200,7 @@ h4 {
         flex-direction: column;
     }
     .project-title {
-        width: 50%;
+        width: 45%;
     }
 }
 
