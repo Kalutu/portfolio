@@ -33,6 +33,6 @@ To view the webpage, simply visit https://kalutu-daniel.vercel.app/
 Contributions to the project are welcome. Feel free to submit a pull request with any improvements or fixes.
 
 ## Credits
-Readme created by Kalutu Daniel.
+Created by Kalutu Daniel using create-react-app.
 
 
