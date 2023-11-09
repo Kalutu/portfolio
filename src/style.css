@@ -49,7 +49,7 @@ hr {
 #welcome-section{
     width: 100%;
     height: 150vh;
-    background-image: url(img/kalutu.jpeg);
+    background-image: url(../public/img/kalutu.jpeg);
     background-size: cover;
     opacity: 0.8;
     padding: 50px 0px 0px 100px;
