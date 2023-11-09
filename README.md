@@ -2,7 +2,7 @@
 This is a personal portfolio website for Kalutu Daniel, a software engineer. The portfolio showcases Kalutu's skills, projects, and contact information.
 
 ## Preview 
-![Kalutu Daniel Website Preview](img/kalutu-portfolio.png)
+![Kalutu Daniel Website Preview](public/img/kalutu-portfolio.png)
 
 ## Table of Contents
 - [About](#about)
@@ -23,13 +23,11 @@ The "Projects" section displays a selection of Kalutu's projects. Each project i
 The "Contact" section provides various ways to get in touch with Kalutu Daniel. It includes links to his LinkedIn profile, GitHub profile, email address, and phone number.
 
 ## Technologies Used
-- HTML5
+- React
 - CSS3
 
 ## Usage
-To view the webpage, simply open the `index.html` file in a web browser.<br>
-OR<br>
-Visit https://kalutu-daniel.vercel.app/
+To view the webpage, simply visit https://kalutu-daniel.vercel.app/
 
 ## Contributions
 Contributions to the project are welcome. Feel free to submit a pull request with any improvements or fixes.
