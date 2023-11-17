@@ -21,8 +21,9 @@ export default function Intro(){
                             </div>
                         </div>
                         <div className="col-lg-6">
-                            <img className="img-fluid" src="img/profile.png" alt=""/>
+                            <img className="img-fluid" src="img/profile.png" alt="profile picture"/>
                         </div>
+                        <h2 className="text-primary text-center py-5">quote here</h2>
                     </div>
                 </div>
             </div>
