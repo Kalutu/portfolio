@@ -4,7 +4,8 @@ import About from "./Components/About"
 import Projects from "./Components/Projects"
 import Contact from "./Components/Contact"
 import Footer from "./Components/Footer"
-import "./style.css"
+import Skills from "./Components/Skills"
+import Services from "./Components/Services"
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
       <Navbar />
       <Intro />
       <About />
-      <hr/>
+      <Skills/>
+      <Services/>
       <Projects />
       <Contact />
       <Footer />

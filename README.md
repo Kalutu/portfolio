@@ -1,38 +1,70 @@
-# Kalutu Daniel Portfolio
-This is a personal portfolio website for Kalutu Daniel, a software engineer. The portfolio showcases Kalutu's skills, projects, and contact information.
+# Getting Started with Create React App
 
-## Preview 
-![Kalutu Daniel Website Preview](public/img/kalutu-portfolio.png)
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Table of Contents
-- [About](#about)
-- [Projects](#projects)
-- [Contact](#contact)
-- [Technologies Used](#technologies-used)
-- [Usage](#usage)
-- [Contributions](#contributions)
-- [Credits](#credits)
+## Available Scripts
 
-## About
-The "About" section provides an introduction to Kalutu Daniel. It highlights his educational background, experience, and expertise in software development. It also mentions his approach to collaboration and communication with clients.
+In the project directory, you can run:
 
-## Projects
-The "Projects" section displays a selection of Kalutu's projects. Each project is represented by an image, a title, and a link to the live version of the project. There is also a "See All" button that directs users to Kalutu's GitHub profile where they can explore more projects.
+### `npm start`
 
-## Contact
-The "Contact" section provides various ways to get in touch with Kalutu Daniel. It includes links to his LinkedIn profile, GitHub profile, email address, and phone number.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## Technologies Used
-- React
-- CSS3
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-## Usage
-To view the webpage, simply visit https://kalutu-daniel.vercel.app/
+### `npm test`
 
-## Contributions
-Contributions to the project are welcome. Feel free to submit a pull request with any improvements or fixes.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## Credits
-Created by Kalutu Daniel using create-react-app.
+### `npm run build`
 
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
