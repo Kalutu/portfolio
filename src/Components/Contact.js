@@ -14,14 +14,14 @@ export default function Intro(){
                 </div>
                 <div className="row g-5">
                     <div className="col-lg-5 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <p className="mb-2">My office:</p>
-                        <h3 className="fw-bold">123 Street, New York, USA</h3>
+                        <p className="mb-2">My Address:</p>
+                        <h3 className="fw-bold">Mombasa, Kenya</h3>
                         <hr className="w-100"/>
                         <p className="mb-2">Call me:</p>
-                        <h3 className="fw-bold">+012 345 6789</h3>
+                        <h3 className="fw-bold">+254 713 118 765</h3>
                         <hr className="w-100"/>
                         <p className="mb-2">Mail me:</p>
-                        <h3 className="fw-bold">info@example.com</h3>
+                        <h3 className="fw-bold">kalutudaniel@gmail.com</h3>
                         <hr className="w-100"/>
                         <p className="mb-2">Follow me:</p>
                         <div className="d-flex pt-2">
@@ -32,7 +32,7 @@ export default function Intro(){
                         </div>
                     </div>
                     <div className="col-lg-7 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                        <p className="mb-4">The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're done. <a href="https://htmlcodex.com/contact-form">Download Now</a>.</p>
+                        {/* <p className="mb-4">The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're done. <a href="https://htmlcodex.com/contact-form">Download Now</a>.</p> */}
                         <form>
                             <div className="row g-3">
                                 <div className="col-md-6">

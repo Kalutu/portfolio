@@ -19,7 +19,7 @@ export default function Services(){
                                 <i className="fa fa-crop-alt fa-2x text-dark"></i>
                             </div>
                             <div className="ms-sm-4">
-                                <h4 className="mb-3">Creative Design</h4>
+                                <h4 className="mb-3">Software Development</h4>
                                 <h6 className="mb-3">Start from <span className="text-primary">$199</span></h6>
                                 <span>Stet lorem dolor diam amet vero eos. No stet est diam amet diam ipsum. Clita dolor duo clita sit sed sit dolor eos.</span>
                             </div>
@@ -31,7 +31,7 @@ export default function Services(){
                                 <i className="fa fa-code-branch fa-2x text-dark"></i>
                             </div>
                             <div className="ms-sm-4">
-                                <h4 className="mb-3">Graphic Design</h4>
+                                <h4 className="mb-3">Web Development</h4>
                                 <h6 className="mb-3">Start from <span className="text-primary">$199</span></h6>
                                 <span>Stet lorem dolor diam amet vero eos. No stet est diam amet diam ipsum. Clita dolor duo clita sit sed sit dolor eos.</span>
                             </div>

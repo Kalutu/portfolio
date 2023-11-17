@@ -8,13 +8,13 @@ export default function Intro(){
                     <div className="col-lg-6">
                         <h1 className="display-5 mb-0">My Projects</h1>
                     </div>
-                    <div className="col-lg-6 text-lg-end">
+                    {/* <div className="col-lg-6 text-lg-end">
                         <ul className="list-inline mx-n3 mb-0" id="portfolio-flters">
                             <li className="mx-3 active" data-filter="*">All Projects</li>
                             <li className="mx-3" data-filter=".first">UI/UX Design</li>
                             <li className="mx-3" data-filter=".second">Graphic Design</li>
                         </ul>
-                    </div>
+                    </div> */}
                 </div>
                 <div className="row g-4 portfolio-container wow fadeInUp" data-wow-delay="0.1s">
                     <div className="col-lg-4 col-md-6 portfolio-item first">
