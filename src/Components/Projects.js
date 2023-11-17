@@ -22,7 +22,7 @@ export default function Intro(){
                             <img className="img-fluid" src="img/project-1.jpg" alt=""/>
                             <div className="portfolio-btn">
                                 <a className="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/project-1.jpg" data-lightbox="portfolio"><i className="fa fa-eye"></i></a>
-                                <a className="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i className="fa fa-link"></i></a>
+                                <a className="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="https://github.com/Kalutu/quote-machine"><i className="fa fa-link"></i></a>
                             </div>
                         </div>
                     </div>
@@ -31,7 +31,7 @@ export default function Intro(){
                             <img className="img-fluid" src="img/project-2.jpg" alt=""/>
                             <div className="portfolio-btn">
                                 <a className="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/project-2.jpg" data-lightbox="portfolio"><i className="fa fa-eye"></i></a>
-                                <a className="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i className="fa fa-link"></i></a>
+                                <a className="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="https://plan-master.vercel.app/"><i className="fa fa-link"></i></a>
                             </div>
                         </div>
                     </div>
@@ -40,7 +40,7 @@ export default function Intro(){
                             <img className="img-fluid" src="img/project-3.jpg" alt=""/>
                             <div className="portfolio-btn">
                                 <a className="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/project-3.jpg" data-lightbox="portfolio"><i className="fa fa-eye"></i></a>
-                                <a className="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i className="fa fa-link"></i></a>
+                                <a className="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="https://quickten.vercel.app/"><i className="fa fa-link"></i></a>
                             </div>
                         </div>
                     </div>
@@ -67,7 +67,7 @@ export default function Intro(){
                             <img className="img-fluid" src="img/project-6.jpg" alt=""/>
                             <div className="portfolio-btn">
                                 <a className="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/project-6.jpg" data-lightbox="portfolio"><i className="fa fa-eye"></i></a>
-                                <a className="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i className="fa fa-link"></i></a>
+                                <a className="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="https://25add5clock.vercel.app/"><i className="fa fa-link"></i></a>
                             </div>
                         </div>
                     </div>
