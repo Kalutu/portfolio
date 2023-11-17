@@ -27,8 +27,8 @@ export default function Intro(){
                         <div className="d-flex pt-2">
                             <a className="btn btn-square btn-primary me-2" href=""><i className="fab fa-twitter"></i></a>
                             <a className="btn btn-square btn-primary me-2" href=""><i className="fab fa-facebook-f"></i></a>
-                            <a className="btn btn-square btn-primary me-2" href=""><i className="fab fa-youtube"></i></a>
-                            <a className="btn btn-square btn-primary me-2" href=""><i className="fab fa-linkedin-in"></i></a>
+                            <a className="btn btn-square btn-primary me-2" href="https://github.com/Kalutu"><i className="fab fa-github"></i></a>
+                            <a className="btn btn-square btn-primary me-2" href="https://www.linkedin.com/in/kalutu-daniel/"><i className="fab fa-linkedin-in"></i></a>
                         </div>
                     </div>
                     <div className="col-lg-7 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
