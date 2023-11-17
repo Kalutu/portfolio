@@ -25,8 +25,8 @@ export default function Intro(){
                         <hr className="w-100"/>
                         <p className="mb-2">Follow me:</p>
                         <div className="d-flex pt-2">
-                            <a className="btn btn-square btn-primary me-2" href=""><i className="fab fa-twitter"></i></a>
-                            <a className="btn btn-square btn-primary me-2" href=""><i className="fab fa-facebook-f"></i></a>
+                            <a className="btn btn-square btn-primary me-2" href="https://twitter.com/kalutu_daniel"><i className="fab fa-twitter"></i></a>
+                            <a className="btn btn-square btn-primary me-2" href="https://www.facebook.com/kalutudaniel"><i className="fab fa-facebook-f"></i></a>
                             <a className="btn btn-square btn-primary me-2" href="https://github.com/Kalutu"><i className="fab fa-github"></i></a>
                             <a className="btn btn-square btn-primary me-2" href="https://www.linkedin.com/in/kalutu-daniel/"><i className="fab fa-linkedin-in"></i></a>
                         </div>
