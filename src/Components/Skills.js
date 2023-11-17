@@ -109,7 +109,7 @@ export default function Skills(){
                         </div>
                     </div>
                 </div>
-                <p className="mt-5 px-5">Proficient in a variety of programming languages and technologies, including Javascript, PHP and Python, I possess a versatile skill set that allows me to adapt to different project requirements and deliver outstanding results. Whether it's building responsive and user-friendly front-end interfaces or developing robust and scalable back-end systems, I thrive on turning ideas into functional and visually appealing softwares.</p>
+                {/* <p className="mt-5 px-5">Proficient in a variety of programming languages and technologies, including Javascript, PHP and Python, I possess a versatile skill set that allows me to adapt to different project requirements and deliver outstanding results. Whether it's building responsive and user-friendly front-end interfaces or developing robust and scalable back-end systems, I thrive on turning ideas into functional and visually appealing softwares.</p> */}
             </div>
         </div>
     )
