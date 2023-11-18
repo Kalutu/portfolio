@@ -106,7 +106,7 @@
 /*** Header ***/
 #home {
     margin-bottom: 6rem;
-    background: url(img/bg-header.png) left top no-repeat;
+    background: url(../img/bg-header.png) right top no-repeat;
 }
 
 .typed-cursor {
@@ -251,7 +251,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url(img/bg-icon.png) center center no-repeat;
+    background: url(../img/bg-icon.png) center center no-repeat;
     background-size: cover;
 }
 
