@@ -1,6 +1,36 @@
-import React from "react";
+import React, { useState } from "react";
 
 export default function Contact() {
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    subject: "",
+    message: "",
+  });
+
+  const handleChange = (e) => {
+    setFormData({ ...formData, [e.target.id]: e.target.value });
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    fetch("contact.php", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(formData),
+    })
+      .then(response => response.json())
+      .then(data => {
+        console.log(data);
+      })
+      .catch(error => {
+        console.error("Error:", error);
+      });
+  };
+
   return (
     <div className="container-xxl pb-5" id="contact">
       <div className="container py-5">
@@ -16,7 +46,7 @@ export default function Contact() {
           </div>
 
           <div className="col-lg-7 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-            <ContactForm />
+            <ContactForm handleChange={handleChange} handleSubmit={handleSubmit} formData={formData} />
           </div>
         </div>
       </div>
@@ -52,8 +82,8 @@ const ContactInfo = () => (
   </>
 );
 
-const ContactForm = () => (
-  <form>
+const ContactForm = ({ handleChange, handleSubmit, formData }) => (
+  <form onSubmit={handleSubmit}>
     <div className="row g-3">
       {formFields.map((field) => (
         <div key={field.id} className={`col-md-${field.width}`}>
@@ -63,6 +93,8 @@ const ContactForm = () => (
               className="form-control"
               id={field.id}
               placeholder={field.placeholder}
+              value={formData[field.id]}
+              onChange={handleChange}
             />
             <label htmlFor={field.id}>{field.label}</label>
           </div>
