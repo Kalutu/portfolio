@@ -1,6 +1,6 @@
 import React from "react"
 
-export default function Intro(){
+export default function Contact(){
     return (
         <div className="container-xxl pb-5" id="contact">
             <div className="container py-5">
@@ -8,9 +8,9 @@ export default function Intro(){
                     <div className="col-lg-6">
                         <h1 className="display-5 mb-0">Let's Work Together</h1>
                     </div>
-                    <div className="col-lg-6 text-lg-end">
+                    {/* <div className="col-lg-6 text-lg-end">
                         <a className="btn btn-primary py-3 px-5" href="">Say Hello</a>
-                    </div>
+                    </div> */}
                 </div>
                 <div className="row g-5">
                     <div className="col-lg-5 col-md-6 wow fadeInUp" data-wow-delay="0.1s">

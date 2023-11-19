@@ -8,9 +8,9 @@ export default function Services(){
                     <div className="col-lg-6">
                         <h1 className="display-5 mb-0">My Services</h1>
                     </div>
-                    <div className="col-lg-6 text-lg-end">
+                    {/* <div className="col-lg-6 text-lg-end">
                         <a className="btn btn-primary py-3 px-5" href="">Hire Me</a>
-                    </div>
+                    </div> */}
                 </div>
                 <div className="row g-4">
                     <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">

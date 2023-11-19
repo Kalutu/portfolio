@@ -1,6 +1,6 @@
 import React from "react"
 
-export default function Intro(){
+export default function Projects(){
     return (
         <div className="container-xxl py-6 pt-5" id="project">
             <div className="container">

@@ -1,6 +1,6 @@
 import React from "react"
 
-export default function Intro(){
+export default function Footer(){
     return (
         <div className="container-fluid bg-dark text-white py-4">
             <div className="container">
