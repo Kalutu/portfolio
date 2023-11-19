@@ -4,7 +4,12 @@ header('Content-Type: application/json');
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $data = json_decode(file_get_contents('php://input'), true);
 
-    // Replace with your actual email address
+    if ($data === null && json_last_error() !== JSON_ERROR_NONE) {
+        http_response_code(400);
+        echo json_encode(['error' => 'Invalid JSON data']);
+        exit;
+    }
+
     $to = 'kalutudaniel@gmail.com';
     $subject = 'New Contact Form Submission';
     $message = "Name: {$data['name']}\n";
@@ -12,8 +17,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $message .= "Subject: {$data['subject']}\n";
     $message .= "Message: {$data['message']}\n";
 
-    // You may need to configure additional headers based on your mail server
-    $headers = 'From: webmaster@example.com'; // Replace with your email or leave it empty
+    $headers = 'From: kalutudaniel@gmail.com';
 
     $success = mail($to, $subject, $message, $headers);
 
