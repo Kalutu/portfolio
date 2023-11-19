@@ -15,7 +15,7 @@ export default function Contact() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    fetch("contact.php", {
+    fetch("../../public/contact.php", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
