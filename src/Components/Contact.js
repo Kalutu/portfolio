@@ -1,7 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
+import emailjs from "emailjs-com";
 
-export default function Contact() {
-
+export default function Contact() {  
   return (
     <div className="container-xxl pb-5" id="contact">
       <div className="container py-5">
@@ -53,8 +53,28 @@ const ContactInfo = () => (
   </>
 );
 
-const ContactForm = () => (
-  <form>
+const ContactForm = () => {
+  function sendEmail(e) {
+    e.preventDefault();
+  
+    const templateParams = {
+      name: document.getElementById('name').value,
+      email: document.getElementById('email').value,
+      subject: document.getElementById('subject').value,
+      message: document.getElementById('message').value,
+    };
+  
+    emailjs.send("service_op5dlid", "template_k157fsu", templateParams, "aZ9VncNds3pQbD5Ry")
+      .then((response) => {
+        console.log('Email sent successfully:', response);
+      })
+      .catch((error) => {
+        console.error('Error sending email:', error);
+      });
+  }
+
+  return (
+  <form onSubmit={sendEmail}>
     <div className="row g-3">
       {formFields.map((field) => (
         <div key={field.id} className={`col-md-${field.width}`}>
@@ -63,6 +83,7 @@ const ContactForm = () => (
               type={field.type}
               className="form-control"
               id={field.id}
+              name={field.id}
               placeholder={field.placeholder}
               required
             />
@@ -77,7 +98,7 @@ const ContactForm = () => (
       </div>
     </div>
   </form>
-);
+)};
 
 const socialMediaLinks = [
   { url: "https://twitter.com/kalutu_daniel", icon: "fab fa-twitter" },
