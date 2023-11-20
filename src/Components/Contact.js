@@ -67,38 +67,49 @@ const ContactForm = () => {
     emailjs.send("service_op5dlid", "template_k157fsu", templateParams, "aZ9VncNds3pQbD5Ry")
       .then((response) => {
         console.log('Email sent successfully:', response);
+        alert('Message sent successfully!');
+        resetForm();
       })
       .catch((error) => {
         console.error('Error sending email:', error);
+        alert('Error sending message. Please try again later.');
       });
   }
 
+  function resetForm() {
+    document.getElementById('name').value = '';
+    document.getElementById('email').value = '';
+    document.getElementById('subject').value = '';
+    document.getElementById('message').value = '';
+  }
+
   return (
-  <form onSubmit={sendEmail}>
-    <div className="row g-3">
-      {formFields.map((field) => (
-        <div key={field.id} className={`col-md-${field.width}`}>
-          <div className="form-floating">
-            <input
-              type={field.type}
-              className="form-control"
-              id={field.id}
-              name={field.id}
-              placeholder={field.placeholder}
-              required
-            />
-            <label htmlFor={field.id}>{field.label}</label>
+    <form onSubmit={sendEmail}>
+      <div className="row g-3">
+        {formFields.map((field) => (
+          <div key={field.id} className={`col-md-${field.width}`}>
+            <div className="form-floating">
+              <input
+                type={field.type}
+                className="form-control"
+                id={field.id}
+                name={field.id}
+                placeholder={field.placeholder}
+                required
+              />
+              <label htmlFor={field.id}>{field.label}</label>
+            </div>
           </div>
+        ))}
+        <div className="col-12">
+          <button className="btn btn-primary py-3 px-5" type="submit">
+            Send Message
+          </button>
         </div>
-      ))}
-      <div className="col-12">
-        <button className="btn btn-primary py-3 px-5" type="submit">
-          Send Message
-        </button>
       </div>
-    </div>
-  </form>
-)};
+    </form>
+  );
+};
 
 const socialMediaLinks = [
   { url: "https://twitter.com/kalutu_daniel", icon: "fab fa-twitter" },
