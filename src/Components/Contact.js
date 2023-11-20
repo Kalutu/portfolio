@@ -12,23 +12,34 @@ export default function Contact() {
     setFormData({ ...formData, [e.target.id]: e.target.value });
   };
 
+  const sendEmail = () => {
+    /* global Email */
+    Email.send({
+      Host: "smtp.gmail.com",
+      Username: "kalutudaniel@gmail.com",
+      Password: process.env.REACT_APP_API_KEY,
+      To: "kalutudaniel@gmail.com",
+      From: formData.email,
+      Subject: formData.subject,
+      Body: formData.message,
+    }).then(
+      (_message) => {
+        setFormData({
+          name: "",
+          email: "",
+          subject: "",
+          message: "",
+        });
+  
+        alert("Message sent successfully");
+      }
+    ).catch(error => console.error("Error sending email:", error));
+  };  
+
   const handleSubmit = (e) => {
     e.preventDefault();
-
-    fetch("../../public/contact.php", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(formData),
-    })
-      .then(response => response.json())
-      .then(data => {
-        console.log(data);
-      })
-      .catch(error => {
-        console.error("Error:", error);
-      });
+    sendEmail();
+    return false;
   };
 
   return (
@@ -46,7 +57,11 @@ export default function Contact() {
           </div>
 
           <div className="col-lg-7 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-            <ContactForm handleChange={handleChange} handleSubmit={handleSubmit} formData={formData} />
+            <ContactForm
+              formData={formData}
+              handleChange={handleChange}
+              handleSubmit={handleSubmit}
+            />
           </div>
         </div>
       </div>
@@ -82,8 +97,8 @@ const ContactInfo = () => (
   </>
 );
 
-const ContactForm = ({ handleChange, handleSubmit, formData }) => (
-  <form onSubmit={handleSubmit}>
+const ContactForm = ({ formData, handleChange, handleSubmit }) => (
+  <form onSubmit={handleSubmit} id="contactForm">
     <div className="row g-3">
       {formFields.map((field) => (
         <div key={field.id} className={`col-md-${field.width}`}>
@@ -95,6 +110,7 @@ const ContactForm = ({ handleChange, handleSubmit, formData }) => (
               placeholder={field.placeholder}
               value={formData[field.id]}
               onChange={handleChange}
+              required
             />
             <label htmlFor={field.id}>{field.label}</label>
           </div>
@@ -126,5 +142,5 @@ const formFields = [
     width: 12,
     label: "Message",
     placeholder: "Leave a message here",
-  },
+  }
 ];
