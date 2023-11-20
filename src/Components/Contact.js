@@ -1,46 +1,6 @@
 import React, { useState } from "react";
 
 export default function Contact() {
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    subject: "",
-    message: "",
-  });
-
-  const handleChange = (e) => {
-    setFormData({ ...formData, [e.target.id]: e.target.value });
-  };
-
-  const sendEmail = () => {
-    /* global Email */
-    Email.send({
-      Host: "smtp.gmail.com",
-      Username: "kalutudaniel@gmail.com",
-      Password: process.env.REACT_APP_API_KEY,
-      To: "kalutudaniel@gmail.com",
-      From: formData.email,
-      Subject: formData.subject,
-      Body: formData.message,
-    }).then(
-      (_message) => {
-        setFormData({
-          name: "",
-          email: "",
-          subject: "",
-          message: "",
-        });
-  
-        alert("Message sent successfully");
-      }
-    ).catch(error => console.error("Error sending email:", error));
-  };  
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    sendEmail();
-    return false;
-  };
 
   return (
     <div className="container-xxl pb-5" id="contact">
@@ -57,11 +17,7 @@ export default function Contact() {
           </div>
 
           <div className="col-lg-7 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-            <ContactForm
-              formData={formData}
-              handleChange={handleChange}
-              handleSubmit={handleSubmit}
-            />
+            <ContactForm />
           </div>
         </div>
       </div>
@@ -97,8 +53,8 @@ const ContactInfo = () => (
   </>
 );
 
-const ContactForm = ({ formData, handleChange, handleSubmit }) => (
-  <form onSubmit={handleSubmit} id="contactForm">
+const ContactForm = () => (
+  <form>
     <div className="row g-3">
       {formFields.map((field) => (
         <div key={field.id} className={`col-md-${field.width}`}>
@@ -108,8 +64,6 @@ const ContactForm = ({ formData, handleChange, handleSubmit }) => (
               className="form-control"
               id={field.id}
               placeholder={field.placeholder}
-              value={formData[field.id]}
-              onChange={handleChange}
               required
             />
             <label htmlFor={field.id}>{field.label}</label>
