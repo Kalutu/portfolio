@@ -77,11 +77,11 @@ export default function Skills() {
 }
 
 const skillsData = [
-  { title: "HTML5" },
-  { title: "CSS3" },
   { title: "React JS" },
+  { title: "Next JS" },
+  { title: "MongoDB" },
   { title: "Node JS" },
-  { title: "PHP" },
+  { title: "React Native" },
   { title: "Django" },
 ];
 
