@@ -17,7 +17,9 @@ export default function Intro() {
         setQuotes(data);
 
         let storedIndex = localStorage.getItem("randomQuoteIndex");
-        let randIndex = storedIndex ? parseInt(storedIndex, 10) : getRandomIndex(data);
+        let randIndex = storedIndex
+          ? parseInt(storedIndex, 10)
+          : getRandomIndex(data);
 
         setRandomQuote(data[randIndex]);
         setLoading(false);
@@ -48,15 +50,28 @@ export default function Intro() {
               <h1 className="display-3 mb-3">Kalutu Daniel</h1>
               <h2 className="typed-text-output d-inline">Software Engineer</h2>
               <div className="d-flex align-items-center pt-5">
-                <a href="docs/DANIEL KALUTU-CV .pdf" className="btn btn-primary py-3 px-4 me-5" download>
+                <a
+                  href="docs/DANIEL KALUTU-CV.pdf"
+                  className="btn btn-primary py-3 px-4 me-5"
+                  download
+                >
                   Download CV
                 </a>
               </div>
             </div>
             <div className="col-lg-6">
-              <img className="img-fluid" src="img/profile.png" alt="profile picture" />
+              <img
+                className="img-fluid"
+                src="img/profile.png"
+                alt="profile picture"
+              />
             </div>
-            <h2 className="text-primary text-center py-5 wow fadeInUp" data-wow-delay="0.5s">&quot;{loading?"Loading...":randomQuote.text}&quot;</h2>
+            <h2
+              className="text-primary text-center py-5 wow fadeInUp"
+              data-wow-delay="0.5s"
+            >
+              &quot;{loading ? "Loading..." : randomQuote.text}&quot;
+            </h2>
           </div>
         </div>
       </div>
