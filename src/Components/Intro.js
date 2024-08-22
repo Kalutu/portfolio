@@ -25,6 +25,9 @@ export default function Intro() {
         setLoading(false);
       } catch (error) {
         console.error("Error fetching data:", error);
+        setRandomQuote({
+          text: "Loyalty is a two-way street. If you expect it from others, you should show it to them.",
+        });
         setLoading(false);
       }
     }
