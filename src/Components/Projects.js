@@ -34,14 +34,14 @@ export default function Projects() {
 const projectData = [
   {
     imageSrc: "img/project-1.jpg",
-    link: "https://quickten.vercel.app/",
-  },
-  {
-    imageSrc: "img/project-2.jpg",
     link: "#",
   },
   {
+    imageSrc: "img/project-2.jpg",
+    link: "https://lms.janjaprogrammers.com/",
+  },
+  {
     imageSrc: "img/project-3.jpg",
-    link: "https://25add5clock.vercel.app/",
+    link: "https://github.com/Kalutu/legal-aid-chatbot",
   },
 ];
