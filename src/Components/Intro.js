@@ -58,7 +58,7 @@ export default function Intro() {
                   className="btn btn-primary py-3 px-4 me-5"
                   download
                 >
-                  Download CV
+                  <i class="fa fa-download fa-2x text-dark"></i>Download CV
                 </a>
               </div>
             </div>
