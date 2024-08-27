@@ -33,17 +33,17 @@ const serviceData = [
   {
     iconClass: "fa fa-code fa-2x text-dark",
     title: "Software Development",
-    description: "Build robust and scalable software solutions tailored to your business needs. Leverage cutting-edge technologies to deliver high-quality applications. From conceptualization to deployment, ensure a seamless development process.",
+    description: "I build robust and scalable software solutions tailored to your business needs. Leverage cutting-edge technologies to deliver high-quality applications. From conceptualization to deployment, ensure a seamless development process.",
   },
   {
     iconClass: "fa fa-code-branch fa-2x text-dark",
     title: "Web Development",
-    description: "Create interactive and engaging websites that cater to your specific business goals. Web development services include front-end and back-end development, ensuring a seamless user experience and robust functionality.",
+    description: "I create interactive and engaging websites that cater to your specific business goals. Web development services include front-end and back-end development, ensuring a seamless user experience and robust functionality.",
   },
   {
     iconClass: "fa fa-mobile fa-2x text-dark",
     title: "Mobile App Development",
-    description: "Craft innovative mobile applications that provide a seamless user experience. Mobile app development services cover iOS and Android platforms, ensuring your app reaches a wide audience and meets high standards of performance and usability.",
+    description: "I craft innovative mobile applications that provide a seamless user experience. Mobile app development services cover iOS and Android platforms, ensuring your app reaches a wide audience and meets high standards of performance and usability.",
   },
   {
     iconClass: "fa fa-laptop-code fa-2x text-dark",
