@@ -62,7 +62,7 @@ export default function Skills() {
                     <div key={index} className="col-sm-6">
                       <h5>{edu.title}</h5>
                       <hr className="text-primary my-2" />
-                      <p className="text-primary mb-1">{edu.date}</p>
+                      <p className="text-primary mb-1">{edu.grade}</p>
                       <h6 className="mb-0">{edu.institution}</h6>
                     </div>
                   ))}
@@ -100,8 +100,8 @@ const experienceData = [
 
 const educationData = [
   {
-    title: "Bsc Computer Science",
-    date: "2020 - 2024",
+    title: "Bachelor of Science in Computer Science",
     institution: "Technical University of Mombasa",
+    grade: "First Class Honors",
   },
 ];
