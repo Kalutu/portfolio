@@ -86,11 +86,11 @@ const skillsData = [
 ];
 
 const experienceData = [
-  {
-    title: "Software Engineer",
-    date: "Dec 2023 - Present",
-    company: "Janja Programmers",
-  },
+  // {
+  //   title: "Software Engineer",
+  //   date: "Dec 2023 - Present",
+  //   company: "Janja Programmers",
+  // },
   {
     title: "Software Engineer Intern",
     date: "Sept 2023 - Nov 2023",
