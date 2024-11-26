@@ -54,7 +54,7 @@ export default function Intro() {
               <h2 className="typed-text-output d-inline">Software Engineer</h2>
               <div className="d-flex align-items-center pt-5">
                 <a
-                  href="docs/DANIEL KALUTU-CV.pdf"
+                  href="docs/KALUTU DANIEL-CV.pdf"
                   className="btn btn-primary py-3 px-4 me-5"
                   download
                 >
